@@ -1,0 +1,11 @@
+DEPENDENCIES
+  shiva
+    path: .
+    metadata: true
+
+GRAPH
+  compat_resource (12.16.2)
+  shiva (0.1.0)
+    tomcat (~> 2.3.4)
+  tomcat (2.3.4)
+    compat_resource (>= 12.16)
